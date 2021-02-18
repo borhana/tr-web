@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;}
+
+body {
+	background-color: #8ecae6;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: auto;
+	}
+
+.container {
+	max-width: 800px;
+	height: auto;
+	background: #fff;
+	margin: 50px auto;
+	box-sizing: border-box; 
+	padding: 40px;}
+
+p {
+    color: #000;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 45px;
+	margin-bottom: 20px;
+	background: #219ebc;}
+
+
+.input,
+.mesazh  .area {
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 25px;
+	border: 2px solid #e9eaea;
+	font-size: 14px;
+	border-radius: 5px;
+	outline: none;
+	transition: all 0.5s;}
+
+.login .input {
+	width: 48%;
+	float: left;
+	margin-right: 4%;}
+
+.login .input:last-child {
+	margin-right: 0;}
+
+.mesazh .area {
+	height: 200px;}
+
+.dergo {
+	width: 100%;
+	text-align: center;}
+
+.dergo .btn {
+	background: #023047;
+	padding: 12px 85px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;}
